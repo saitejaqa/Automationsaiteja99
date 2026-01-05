@@ -12,6 +12,7 @@ public class UCS {
         for (int i = 0; i < ch.length; i++) {
 
             int count = 0;
+            //initilize the code
 
             if (!list.contains(ch[i])) {
                 list.add(ch[i]);
