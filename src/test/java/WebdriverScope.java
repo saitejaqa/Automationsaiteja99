@@ -19,6 +19,8 @@ public class WebdriverScope {
 		int SIZE2=Columndriver.findElements(By.tagName("a")).size();
 		System.out.println("Size2 :" +SIZE2);
 		for(int i=1;i<SIZE2;i++) 
+			
+			//test
 		{
 			String KEYS=Keys.chord(Keys.CONTROL,Keys.ENTER);
 			Columndriver.findElements(By.tagName("a")).get(i).sendKeys(KEYS);
