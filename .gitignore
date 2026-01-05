@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 /target/
+=======
+# Maven build output
+target/
+
+# Eclipse files
+.settings/
+.classpath
+.project
+>>>>>>> 71df2d0c8fb709e2a53393cbbe9ac229e6dfe921
